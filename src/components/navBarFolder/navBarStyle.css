@@ -1,0 +1,113 @@
+.navBarContainer{
+
+    display: grid;
+
+}
+
+
+.myNavBar{
+
+    background-color: #2f2f2f;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    justify-items: center;
+    height: 100%;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.navLink{
+
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+
+
+}
+
+.myRoutesOn{
+
+    border-width: 0px 1px 0px 0px;
+    border-color: #02b45b;
+    border-style: solid;
+    padding: 10px 80px;
+    color: #16eb12;
+
+}
+
+.myRoutesOff{
+
+    border-width: 0px 1px 0px 0px;
+    border-color: #02b45b;
+    border-style: solid;
+    padding: 10px 80px;
+
+}
+
+.myRoutesOff:hover{
+
+    color: #16eb12;
+
+}
+
+.newRouteOn{
+
+    color: #16b7db ;
+
+}
+
+
+.newRouteOff:hover{
+
+    color: #16b7db ;
+
+}
+
+
+
+.completedRouteOn{
+
+    border-width: 0px 1px;
+    border-color: #02b45b;
+    border-style: solid;
+    padding: 10px 80px;
+    color: #02b45b;
+}
+
+.completedRouteOff{
+
+    border-width: 0px 1px;
+    border-color: #02b45b;
+    border-style: solid;
+    padding: 10px 80px;
+}
+
+.completedRouteOff:hover{
+
+    color: #5fc444 ;
+
+}
+
+
+.trashRoutesOn{
+
+    color: #d90a0a;
+
+}
+
+.trashRoutesOff:hover{
+
+    color: #d90a0a ;
+
+}
+
+.imageNavBar{
+    width: 100%;
+    object-fit: fill;
+
+}
+
+

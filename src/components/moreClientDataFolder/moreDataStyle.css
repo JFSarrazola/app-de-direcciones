@@ -1,0 +1,80 @@
+.moreDataBackGround{
+
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-blend-mode: overlay;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    display: grid;
+
+}
+
+
+.moreDataContainer{
+
+    position: fixed;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    background-color: #fff;
+    margin: 0px 100px 0px 100px;
+    padding: 10px 100px 10px 100px  ;
+    border-style: solid;
+    border-color: #02b45b;
+    border-radius: 20px;
+    z-index: 9;
+
+}
+
+
+
+.moreTittle{
+
+    color: #035e30;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.moreInfo{
+
+    margin-left: 20px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.columncontainer{
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+
+}
+
+.moreBackButton{
+
+    width: 30%;
+    margin-left: auto;
+    margin-top: 30px;
+    background-color: #86e27c;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    
+
+}
+
+.moreBackButton:hover{
+
+    color: #02b45b ;
+    background-color: #fff;
+    border-color: #02b45b;
+}

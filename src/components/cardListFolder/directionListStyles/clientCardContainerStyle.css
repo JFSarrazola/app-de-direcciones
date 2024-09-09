@@ -1,0 +1,26 @@
+.cardsListContainer{
+
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    display: grid;
+    gap: 15px;
+
+}
+
+.clientCard{
+
+    background-color: #fff;
+    border-color: #02b45b;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 2px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+

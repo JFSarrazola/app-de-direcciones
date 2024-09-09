@@ -1,0 +1,17 @@
+
+verde de bordes: #02b45b
+verde del titulo de la carta: #035e30
+verde botones claro: #86e27c
+gris "mostrar más" : #4c4d4c
+rojo fondo boton: #ac0600
+azul fondo boton recuperar del trash: #17bfec
+azul fondo boton recuperar del trash hover: #385af1
+fondo navbar: #2f2f2f
+
+hover mis rutas: #16eb12
+hover agregar nueva ruta: #16b7db
+hover rutas completadas: #5fc444
+hover papelera: #d90a0a
+
+hover botones de filtro: #c3f5b6
+

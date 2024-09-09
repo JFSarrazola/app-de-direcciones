@@ -1,0 +1,105 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 0px 60px 0px 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 10px;
+
+}
+
+input{
+
+    height: 25px;
+    width: 300px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #02b45b;
+    padding: 0px 10px 0px 10px;
+    outline: none;
+
+}
+
+.directionInputs{
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+
+}
+
+.moreOptionsContainer{
+
+    display: grid;
+    grid-template-columns: repeat(3,325px);
+    margin-left: 115px;
+    gap: 10px;
+
+}
+
+.freeWrite{
+
+    margin-left: 115px;
+    width: 600px;
+    height: 100px;
+    border-width: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #02b45b;
+    padding: 10px;
+    resize: none;
+    outline: none;
+
+}
+
+.moreOptionsButton{
+
+    background-color: #fff;
+    color: #4c4d4c;
+    border-style: none;
+    margin-left: 170px;
+
+}
+
+.moreOptionsButton:hover{
+
+    cursor: pointer;
+    color: #035e30 ;
+
+
+}
+
+.buttonContainer{
+
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+    
+}
+
+.addNewRouteButton{
+
+    border-style: none;
+    background-color: #86e27c;
+    color: #035e30 ;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 0px 10px 0px;
+    margin-top: 30px;
+    width: 60%;
+    border-style: solid;
+    border-color: #fff;
+
+}
+
+.addNewRouteButton:hover{
+
+    background-color: #fff;
+    color: #035e30 ;
+    border-style: solid;
+    border-color: #86e27c;
+
+}
+

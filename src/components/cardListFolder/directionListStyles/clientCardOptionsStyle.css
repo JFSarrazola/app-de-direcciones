@@ -1,0 +1,49 @@
+.cardOptionsButtons{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+
+.CompleteButton{
+
+    background-color: #63e750;
+    color: #035e30 ;
+    font-weight: bold;
+    padding: 15px;
+    border-style: solid;
+    border-color: #63e750;
+    border-radius: 10px;
+    height: 80px;
+}
+
+.CompleteButton:hover{
+
+    background-color: #fff;
+    color: #035e30 ;
+}
+
+
+.DeleteButton{
+
+    background-color: #ac0600;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border-style: solid;
+    border-color: #ac0600;
+    border-radius: 10px;
+    margin-top: 10px; 
+
+}
+
+.DeleteButton:hover{
+
+    background-color: #fff;
+    color: #ac0600;
+    border-color: #ac0600;
+
+
+}

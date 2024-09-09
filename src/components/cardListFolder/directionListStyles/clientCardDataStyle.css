@@ -1,0 +1,39 @@
+.clientCardContainer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.clientCard{
+
+    margin-bottom: 10px;
+
+}
+
+.cardTittle{
+
+    color: #035e30;
+    font-weight: bold;
+
+}
+
+.cardShowMoreButton{
+
+    background-color: #fff;
+    border-style: none;
+    color:#4c4d4c;
+    font-size: 14px;
+    
+    text-align: start;
+    
+}
+
+
+
+.cardShowMoreButton:hover{
+
+    cursor: pointer;
+    color: #035e30
+}
+

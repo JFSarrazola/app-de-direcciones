@@ -1,0 +1,53 @@
+.FilterComponent{
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: -30px;
+    position: relative;
+}
+
+.buttonFilter{
+
+    background-color: #86e27c;
+    border-radius: 6px;
+    border: solid;
+    border-color: #fff;
+    padding: 15px;
+
+}
+
+.buttonFilter:hover{
+
+    background-color: #fff;
+    border-color: #86e27c;
+    color: #035e30;
+}
+
+
+.filterContainerOn{
+
+    display: grid;
+    border-width: 1px;
+    width: 16%;
+    opacity: 0.9;
+}
+
+.filterContainerOff{
+
+    display: grid;
+    opacity: 0;
+    width: 16%;
+    pointer-events: none;
+}
+
+.filterOptions{
+
+    border: none;
+    background-color: #f0f0f0;
+    padding: 5px 0px 5px 0px;
+}
+
+.filterOptions:hover{
+    background-color: #c3f5b6;
+}
+
