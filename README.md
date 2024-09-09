@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# OBJETIVO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta aplicación permite al usuario crear y gestionar listas de rutas-direcciones para hacer más fácil sus domicilios.
 
-## Available Scripts
+## VENTANAS
 
-In the project directory, you can run:
+Mis rutas: En esta ventana estaran todas las rutas que el usuario ha creado, pueden ser organizadas de mayor a menor o viceversa, cada ruta puede ser marcada como completada o eliminada y sera enviada a una lista ubicada en su respectiva ventana.
 
-### `npm start`
+Agregar nueva ruta: El usuario puede crear cada ruta individualmente ingresando diferentes datos como dirección, nombre de cliente, teléfono etc...
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Rutas completadas: Aquí se podran ver todas las rutas que hayan sido marcadas como completadas en la ventana "Mis rutas".
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Papelera: Aquí se podran ver todas las rutas que hayan sido eliminadas desde la ventana "Mis rutas", cada ruta tiene la opción de recuperarse para ser regresada a "Mis rutas", también se pueden eliminar todas las rutas de la papelera para borrarlas definitivamente
 
-### `npm test`
+## ORDEN
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Se enfoca en separar cada componente en diferentes carpetas para encontrar con mayor facilidad cualquier parte del codigo que se necesite verificar, se usa la palabra "card" para referirse a toda la información individual de cada ruta ( cada ruta ingresada por el usuario puede contar con información adicional como nombre o teléfono).
 
-### `npm run build`
+La carpeta data contiene archivos de imagen( las imagenes que pueden verse debajo de la barra de navegación que sirven para dar más información al usuario sobre en cual ventana se esta ubicado ) y texto( simplemente contiene el codigo HEX se usa a manera de paleta de colores )
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+La carpeta context se usa para especificar los datos que seran usados en diferentes componentes los cuales son en su mayoria estados, se usa el hook useContext para pasar estos estados a los diferentes componentes 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### NOTA
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Este es mi primer proyecto en react, fue creado para practicar los conocimientos que he aprendido hasta el momento y mi objetivo es pulir más y más esta aplicación mientras voy obteniendo nuevos conocimientos.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
