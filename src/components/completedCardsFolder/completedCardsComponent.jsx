@@ -3,29 +3,28 @@ import { ClientCardData } from '../cardListFolder/clientCardData'
 import { MyContext } from '../../context/myContext'
 
 
-export const CompletedCardsComponent = ( { setShowMore } ) => {
-  
-  const { routesCompleted,
-          setCurrentClientData } = useContext(MyContext);
+export const CompletedCardsComponent = ({ setShowMore }) => {
 
-    return (
-        <>
+  const { routesCompleted } = useContext(MyContext);
 
-          <section style={{marginTop:'20px'}}>
+  return (
+    <>
 
-            { routesCompleted.map( (e)=>
-            
-              <div key = { e.idClient } className='clientCard'>
+      <section style={{ marginTop: '20px' }}>
 
-                <ClientCardData clientData = { e }
-                                setShowMore = { setShowMore }/>
+        {routesCompleted.map((e) =>
 
-              </div>
-            
-            ) }
+          <div key={e.idClient} className='clientCard'>
 
-          </section>
-          
-        </>
-    )    
+            <ClientCardData clientData={e}
+                            setShowMore={setShowMore} />
+
+          </div>
+
+        )}
+
+      </section>
+
+    </>
+  )
 }

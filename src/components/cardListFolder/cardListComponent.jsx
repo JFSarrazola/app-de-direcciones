@@ -2,7 +2,6 @@ import { ClientCardData } from './clientCardData';
 import { ClientCardOptions } from './clientCardOptions';
 import { FilterBoxComponent } from '../filtersFolder/FilterBoxComponent';
 
-
 import './directionListStyles/clientCardContainerStyle.css';
 import { useContext } from 'react';
 import { MyContext } from '../../context/myContext';
@@ -12,10 +11,7 @@ import { MyContext } from '../../context/myContext';
 //ClientCardData muestra los datos que se ingresaron, ClientCardOptions contiene dos botones con los que se puede interactuar con cada carta
 //FilterBoxComponent se encarga de crear un componente el cual manipula el orden de la lista de direcciónes (mayor a menor | menor a mayor)
 
-
-
 export const CardListComponent = ({ setShowMore }) => {
-
 
   const { routesList } = useContext(MyContext);
 
@@ -23,23 +19,21 @@ export const CardListComponent = ({ setShowMore }) => {
     <>
 
       <FilterBoxComponent />
+      <section className='cardsListContainer'>
 
-      <section className = 'cardsListContainer'>
+        {routesList.map((e) =>
 
-        { routesList.map( (e)=>
-        
-      
-          <div key = { e.idClient } className='clientCard'>
+          <div key={e.idClient} className='clientCard'>
 
-            <ClientCardData clientData = { e }
-                            setShowMore = { setShowMore }/>
+            <ClientCardData clientData={e}
+              setShowMore={setShowMore} />
 
-            <ClientCardOptions  clientData = { e } />
+            <ClientCardOptions clientData={e} />
           </div>
         )}
 
       </section>
     </>
-   
+
   )
 }

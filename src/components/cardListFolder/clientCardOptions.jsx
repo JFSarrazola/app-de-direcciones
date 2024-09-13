@@ -43,12 +43,9 @@ export const ClientCardOptions = ({ clientData }) => {
 
     <>
         <div className='cardOptionsButtons'>
-
-            <button className = 'CompleteButton' onClick={ ()=> addCompletedCard() }> COMPLETADO </button>
-            <button className = 'DeleteButton' onClick={ ()=> deleteCard()  }> Eliminar </button>
-
+          <button className = 'CompleteButton' onClick={ ()=> addCompletedCard() }> COMPLETADO </button>
+          <button className = 'DeleteButton' onClick={ ()=> deleteCard()  }> Eliminar </button>
         </div>
-    
     </>
 
   )
